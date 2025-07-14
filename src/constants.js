@@ -5,55 +5,41 @@ import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import angularLogo from './assets/tech_logo/angular.png';
-import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
-import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
 import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
+import SwaggerLogo from './assets/tech_logo/Swagger.png';
 import figmaLogo from './assets/tech_logo/figma.png';
+import Nifilogo from './assets/tech_logo/apache_nifi.png';
+import KafkaLogo from './assets/tech_logo/Apache Kafka.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import ASpNetLogo from './assets/tech_logo/NET core.png';
+
 
 // Experience Section Logo's
 import MentheeLogo from './assets/company_logo/Menthee_logo.png';
 import ConpreqLogo from './assets/company_logo/Conpreq_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
 import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
+import DatamigrationLogo from './assets/work_logo/Uncia_DataMigration.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
+import ApachenifiLogo from './assets/work_logo/Apachenifi_DataMig.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
+import CloudLogo from './assets/work_logo/Menthee_Cloud.png';
 import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
-
 
 export const SkillsInfo = [
   {
@@ -65,10 +51,10 @@ export const SkillsInfo = [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
+      // { name: 'Redux', logo: reduxLogo },
+      // { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
+      // { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
@@ -76,22 +62,24 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
+      // { name: 'Springboot', logo: springbootLogo },
+      // { name: 'Node JS', logo: nodejsLogo },
+      // { name: 'Express JS', logo: expressjsLogo },
+       { name: 'MySQL', logo: mysqlLogo },
+      // { name: 'MongoDB', logo: mongodbLogo },
+      // { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'MicroSoft ASP.NetCore', logo: ASpNetLogo },
+
     ],
   },
   {
     title: 'Languages',
-    skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
+     skills: [
+    //   { name: 'C', logo: cLogo },
+    //   { name: 'C++', logo: cppLogo },
+    //   { name: 'Java', logo: javaLogo },
+    //   { name: 'Python', logo: pythonLogo },
       { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
@@ -104,10 +92,13 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
+       { name: 'Swagger', logo: SwaggerLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
+      { name: 'Apache Nifi', logo: Nifilogo },
+      { name: 'Apache Kafka', logo: KafkaLogo },
+
     ],
   },
 ];
@@ -180,7 +171,7 @@ export const SkillsInfo = [
       title: "Data Migration Flow in SCF and LMS",
       description:
         "Worked on the end-to-end development of a Data Migration module for integrating SCF (Supply Chain Finance) and LMS (Loan Management System) platforms. The project involved building a secure and scalable migration pipeline to extract, validate, transform, and load large volumes of structured data between legacy systems and modern applications.",
-      image: githubdetLogo,
+      image: DatamigrationLogo,
       tags: ["HTML", "CSS", "Typescript", "ASP.Net Core", "SQL"],
       webapp: "https://unciaflow-dev.uncia.ai/",
     },
@@ -191,24 +182,24 @@ export const SkillsInfo = [
         "Contributed to the design and development of a comprehensive Gold Auction Management Module to streamline the auction process for pledged gold assets within TVS Credit's financial services ecosystem. This project aimed to digitize and automate workflows for managing gold loan defaults and asset liquidation, ensuring regulatory compliance and operational transparency.",
       image: csprepLogo,
       tags: ["HTML", "CSS", "Typescript", "ASP.Net Core", "SQL"],
-      webapp: "https://csprep.netlify.app/",
+      //webapp: "https://csprep.netlify.app/",
     },
     {
       id: 2,
       title: " Data Migration Core Tool Setup - TVS Credit",
       description:
         "Developed a robust Data Migration Core Tool for TVS Credit to facilitate seamless and secure migration of enterprise data across core platforms such as SCF (Supply Chain Finance) and LMS (Loan Management System). This tool was designed to handle complex data flows, validations, and transformation processes between legacy and new systems.Using a new techology specification of data processing and Quick Analatics of data Integration apply Datamigration",
-      image: movierecLogo,
+      image: ApachenifiLogo,
       tags: ["HTML", "CSS", "Typescript", "ASP.Net Core","Apache Nifi", "SQL"],
       //github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      //webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
       id: 3,
       title: "Menthee Website & Cloud Development",
       description:
         "Led the design and development of Menthee's official web platform and integrated cloud-based subscription services for its proprietary digital products. This project aimed to provide a seamless experience for users to explore Menthee's offerings, subscribe to pricing plans, and manage their usage through a centralized dashboard.",
-      image: npmLogo,
+      image: CloudLogo,
       tags: ["HTML", "CSS", "Typescript", "ASP.Net Core","Razorpay", "SQL"],
       // github: "https://github.com/codingmastr/cmtk-email-validator",
       webapp: "https://menthee.com/index.html",
