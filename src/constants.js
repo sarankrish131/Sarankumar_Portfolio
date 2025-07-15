@@ -35,11 +35,11 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 
 // Project Section Logo's
 import DatamigrationLogo from './assets/work_logo/Uncia_DataMigration.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
+import TVSLogo from './assets/work_logo/TVS_logo.png';
 import ApachenifiLogo from './assets/work_logo/Apachenifi_DataMig.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
+import RmkvLogo from './assets/work_logo/Rmkv_logo.png';
 import CloudLogo from './assets/work_logo/Menthee_Cloud.png';
-import webverLogo from './assets/work_logo/web_dig.png';
+import ManpowerLogo from './assets/work_logo/Manpower_Hrms.png';
 
 export const SkillsInfo = [
   {
@@ -180,9 +180,9 @@ export const SkillsInfo = [
       title: "Gold Auction Module Management - TVS Credit",
       description:
         "Contributed to the design and development of a comprehensive Gold Auction Management Module to streamline the auction process for pledged gold assets within TVS Credit's financial services ecosystem. This project aimed to digitize and automate workflows for managing gold loan defaults and asset liquidation, ensuring regulatory compliance and operational transparency.",
-      image: csprepLogo,
+      image: TVSLogo,
       tags: ["HTML", "CSS", "Typescript", "ASP.Net Core", "SQL"],
-      //webapp: "https://csprep.netlify.app/",
+      webapp: "https://webonelmsqa.tvscredit.com/auth/login",
     },
     {
       id: 2,
@@ -206,23 +206,23 @@ export const SkillsInfo = [
     },
     {
       id: 4,
-      title: "",
+      title: "RMKV Pvt Ltd – Billing & Silk Wrap Trading System",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
+        "Developed a comprehensive billing and inventory management system, integrating modules for inventory tracking, barcode-based billing, GST compliance, and silk wrap trading. Implemented real-time stock updates and designed dynamic sales and inventory dashboards using FastReport for actionable business insights.",
+      image: RmkvLogo,
       tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      // github: "https://github.com/codingmastr/Task-Reminder-Tool",
+      webapp: "https://rmkv.com/pages/about-us",
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "Southern Manpower Management - HRMS",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
+        "Designed and developed core HRMS modules including employee onboarding, payroll processing, and leave management. Implemented custom workflow automation, role-based access control (RBAC), and dynamic payroll and attendance reporting using FastReport to enhance operational efficiency and data security.",
+      image: ManpowerLogo,
       tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+      // github: "https://github.com/codingmastr/Webverse-Digital",
+      webapp: "https://hrms.manpoweronline.in/Login.aspx",
     }
     
   ];  
